@@ -1,8 +1,11 @@
 # PepeGuesser
+<img width="1920" height="1080" alt="Игра ГЕСС" src="https://github.com/user-attachments/assets/0d44a33b-2fd2-486d-a52e-2bb54209ea9a" />
 
 An independent Minecraft location-guessing game with solo rounds, duels, profiles, Discord sign-in, original map tiles, and cubemap panoramas.
 
 This is a standalone extraction from the private `pepeguessr-lab` project. It excludes the unrelated PepeMaps viewer and website admin panel. This repository remains private for review; it has not been made public.
+
+Design in Figma: https://www.figma.com/design/hZs9Gun9dYuosSadFUANpj/Design-PepeMaps-and-PepeGuessr?node-id=0-1&t=vAPk6Gn9ELMzfDq2-1
 
 ## Local development
 
@@ -37,6 +40,9 @@ If the frontend is hosted separately, set `VITE_PEPEGUESSR_API_BASE` during its 
 - `backend/data/pepeguessr/locations.json`: optional manually configured locations; complete panorama folders are discovered automatically.
 
 The map tiles are copied from the verified 2D PepeMaps data set. Each enabled dimension uses its own manifest; the original game UI and panorama content are retained.
+
+## From me
+Этот проект можно сказать стал моей первой игрой, для меня он был по истине большим, апи соеденения и так далее, куча разных проблем)) Если хотите используйте, я слышал есть люди которые хотели-бы продолжить жизнь для пепегессера. Был закрыт так же из за нехватки денег на развитие.
 
 ## License and assets
 
