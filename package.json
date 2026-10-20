@@ -1,0 +1,17 @@
+{
+  "name": "pepeguesser",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "workspaces": ["frontend", "backend"],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:frontend": "npm --workspace frontend run dev",
+    "dev:backend": "npm --workspace backend run dev",
+    "build": "npm --workspace frontend run build",
+    "test": "node --test tests/*.test.mjs",
+    "start": "npm --workspace backend run start"
+  },
+  "devDependencies": { "concurrently": "^9.2.1" }
+}

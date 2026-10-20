@@ -1,0 +1,11 @@
+node_modules/
+frontend/dist/
+frontend/map-archive/
+frontend/public/maps/demo/
+backend/server/storage/
+.env
+.env.*
+!frontend/.env.example
+!backend/.env.example
+*.log
+.DS_Store
